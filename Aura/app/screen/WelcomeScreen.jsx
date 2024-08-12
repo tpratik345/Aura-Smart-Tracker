@@ -3,12 +3,12 @@ import React from 'react'
 
 const WelcomeScreen = () => {
   return (
-    <View className="flex-1 items-center justify-center">
+    <View className="flex-col justify-center items-centerx">
       <Text className="text-3xl">WelcomeScreen</Text>
     </View>
   )
 }
-
+  
 export default WelcomeScreen
 
 const styles = StyleSheet.create({})
